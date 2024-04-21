@@ -18,6 +18,17 @@
         color: #303080;
       }
     </style>
+    <script>
+      let a = document.getElementsByTagName("img");
+      let b = [visualViewport.width, visualViewport.height];
+      for (let i = 0; i < b.length; i++) {
+	let width = a[i].clientWidth;
+	let height = a[i].clientHeight;
+	let height_dimesion = a[i].clientHeight / a[i].clientWidth;
+        a[i].clientWidth = b[0] * (2 / 3);
+	a[i].height = a[i].clientWidth * height_dimension;
+      }t
+    </script>
 
   </head>
 
