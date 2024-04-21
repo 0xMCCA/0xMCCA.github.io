@@ -15,20 +15,9 @@
       }
 
       h1, h2, b {
-        color: #303080;
+        color: #303040;
       }
     </style>
-    <script>
-      let a = document.getElementsByTagName("img");
-      let b = [visualViewport.width, visualViewport.height];
-      for (let i = 0; i < b.length; i++) {
-	let width = a[i].clientWidth;
-	let height = a[i].clientHeight;
-	let height_dimesion = a[i].clientHeight / a[i].clientWidth;
-        a[i].clientWidth = b[0] * (2 / 3);
-	a[i].height = a[i].clientWidth * height_dimension;
-      }t
-    </script>
 
   </head>
 
@@ -38,7 +27,7 @@
 
     <h2>BIOS</h2>
     <div>
-      <img src="https://kaas.hpcloud.hp.com/PROD/v2/renderbinary/6924289/2337697/con-nonos-nb-p-bios-setup-info-options/con-nb-bios-setup-menu">
+      <img class="bios" src="https://kaas.hpcloud.hp.com/PROD/v2/renderbinary/6924289/2337697/con-nonos-nb-p-bios-setup-info-options/con-nb-bios-setup-menu">
     </div>
     <text>link: </text><a href="https://kaas.hpcloud.hp.com/PROD/v2/renderbinary/6924289/2337697/con-nonos-nb-p-bios-setup-info-options/con-nb-bios-setup-menu">https://kaas.hpcloud.hp.com/PROD/v2/renderbinary/6924289/2337697/con-nonos-nb-p-bios-setup-info-options/con-nb-bios-setup-menu</a>
     <ul>
@@ -55,7 +44,7 @@
   
     <h2>UEFI</h2>
     <div>
-      <img src="https://storage-asset.msi.com/global/picture/news/2020/mb/uefi-bios-11.gif">
+      <img class="uefi" src="https://storage-asset.msi.com/global/picture/news/2020/mb/uefi-bios-11.gif">
     </div>
     <text>link: </text><a href="https://storage-asset.msi.com/global/picture/news/2020/mb/uefi-bios-11.gif">https://storage-asset.msi.com/global/picture/news/2020/mb/uefi-bios-11.gif</a>
     <ul>
